@@ -14,7 +14,7 @@ export function SiteHeader() {
 
   return (
     <header className="absolute inset-x-0 top-0 z-50 border-b border-hero-foreground/15">
-      <div className="mx-auto grid h-20 max-w-[1400px] grid-cols-[minmax(0,1fr)_auto] items-center gap-6 px-5 sm:px-8 lg:h-24 lg:px-12">
+      <div className="mx-auto grid h-20 max-w-[1400px] grid-cols-[minmax(0,1fr)_auto] items-center gap-6 px-5 sm:px-8 lg:flex lg:h-24 lg:px-12">
         <a href="#home" aria-label="Aomori Japanese home" className="flex min-w-0 items-center gap-3 text-hero-foreground">
           <span className="grid size-10 shrink-0 place-items-center rounded-full border border-gold/70 font-serif text-lg">青</span>
           <span className="min-w-0">
@@ -23,7 +23,7 @@ export function SiteHeader() {
           </span>
         </a>
 
-        <nav aria-label="Main navigation" className="hidden items-center gap-8 lg:flex">
+        <nav aria-label="Main navigation" className="hidden items-center gap-8 lg:ml-auto lg:flex">
           {navigation.map(([label, href]) => (
             <a key={href} href={href} className="text-xs uppercase tracking-[0.14em] text-hero-foreground/75 transition-colors hover:text-hero-foreground">
               {label}
