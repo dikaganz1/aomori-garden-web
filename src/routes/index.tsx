@@ -2,11 +2,11 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, Clock3, MapPin, Phone, Star } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import heroImage from "@/assets/aomori-hero.jpg";
+import heroImage from "@/assets/background-baru.jpeg";
 import takoyakiImage from "@/assets/aomori-takoyaki.jpg";
 import sushiImage from "@/assets/aomori-sushi.jpg";
 import friedImage from "@/assets/aomori-fried.jpg";
-import interiorImage from "@/assets/aomori-interior.jpg";
+import interiorImage from "@/assets/aomori-interior.jpeg";
 import riceImage from "@/assets/aomori-rice.jpg";
 import drinksImage from "@/assets/aomori-drinks.jpg";
 
